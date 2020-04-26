@@ -30,6 +30,7 @@ body {
     padding: 22px 10px;
     text-decoration: none;
     text-decoration-style: solid;
+    visibility: visible;
 }
 
 .topnav a:hover {
@@ -154,7 +155,6 @@ body {
 
 .botnav a {
     font-size: 14px;
-    font-family: Arial, sans-serif;
     color: #5f6368;
     text-align: center;
     padding: 10px 13px;
