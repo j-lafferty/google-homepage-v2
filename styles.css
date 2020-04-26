@@ -27,7 +27,7 @@ body {
     color: #000;
     opacity: 0.75;
     text-align: center;
-    padding: 15px;
+    padding: 22px 10px;
     text-decoration: none;
     text-decoration-style: solid;
 }
@@ -35,6 +35,14 @@ body {
 .topnav a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.topnav .left-edge-pad {
+    padding-left: 29px;
+}
+
+.topnav .right-edge-pad {
+    padding-right: 29px;
 }
 
 .search-area {
@@ -92,12 +100,11 @@ body {
 }
 
 .botnav a {
-    display: inline-block;
     font-size: 14px;
     font-family: Arial, sans-serif;
     color: #5f6368;
     text-align: center;
-    padding: 10px;
+    padding: 10px 13px;
     line-height: 20px;
     text-decoration: none;
     text-decoration-style: solid;
@@ -112,10 +119,16 @@ body {
 
 #nav-float-left {
     float: left;
-    padding-right: 27px;
 }
 
 #nav-float-right {
     float: right;
-    padding-right: 27px;
+}
+
+.botnav .left-edge-pad {
+    padding-left: 29px;
+}
+
+.botnav .right-edge-pad {
+    padding-right: 29px;
 }
