@@ -55,14 +55,14 @@ body {
     margin: 0;
     position: absolute;
     top: 160%;
-    left: 35%;
+    left: 50%;
     -ms-transform: translate(-50%);
     transform: translate(-50%);
 }
 
 .search-box input {
     height: 43px;
-    width: 280%;
+    width: 475px;
     border: 1px solid rgba(219, 219, 219, 0.774);
     border-radius: 50px;
     box-shadow: 3px 3px 10px -3px rgba(219, 219, 219, 0.774), -1px -1px 10px -3px rgba(219, 219, 219, 0.774);
