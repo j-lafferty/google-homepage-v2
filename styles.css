@@ -1,9 +1,6 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-}
-
-.container {
     background-color: white;
     font-family: Arial, sans-serif;
 }
@@ -17,7 +14,6 @@ body {
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    background-color: white;
     list-style-type: none;
 }
 
@@ -35,7 +31,6 @@ body {
 
 .topnav a:hover {
     text-decoration: underline;
-    color: #000;
     cursor: pointer;
 }
 
@@ -97,7 +92,7 @@ body {
     transform: translate(-50%);
 }
 
-#button1 {
+button {
     background-color: rgb(242, 242, 242);
     border: none;
     color: #5f6368;
@@ -108,32 +103,11 @@ body {
     font-size: 14px;
     border-radius: 4px;
     border-width: 1px;
-    height: 15px;
+    height: 35px;
     margin: 11px 4px;
 }
 
-#button1:hover {
-    border: 1px solid rgba(219, 219, 219, 0.774);
-    color: #333;
-    cursor: pointer;
-}
-
-#button2 {
-    background-color: rgb(242, 242, 242);
-    border: none;
-    color: #5f6368;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 4px;
-    border-width: 1px;
-    height: 15px;
-    margin: 11px 4px;
-}
-
-#button2:hover {
+button:hover {
     border: 1px solid rgba(219, 219, 219, 0.774);
     color: #333;
     cursor: pointer;
@@ -170,18 +144,18 @@ body {
     cursor: pointer;
 }
 
-#nav-float-left {
-    float: left;
-}
-
-#nav-float-right {
-    float: right;
-}
-
 .botnav .left-edge-pad {
     padding-left: 29px;
 }
 
 .botnav .right-edge-pad {
     padding-right: 29px;
+}
+
+#nav-float-left {
+    float: left;
+}
+
+#nav-float-right {
+    float: right;
 }
