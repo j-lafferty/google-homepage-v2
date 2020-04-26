@@ -8,6 +8,8 @@ body {
 }
 
 .topnav {
+    margin: 0 !important;
+    padding: 0 !important;
     top: 0;
     position: fixed;
     display: block;
@@ -15,6 +17,7 @@ body {
     white-space: nowrap;
     width: 100%;
     background-color: white;
+    list-style-type: none;
 }
 
 .topnav a {
@@ -34,13 +37,13 @@ body {
     cursor: pointer;
 }
 
+.search-area {
+    align-content: center;
+}
 .g-logo {
 
 }
 
-.search-area {
-
-}
 
 .search-box {
 
@@ -51,14 +54,17 @@ body {
 }
 
 .botnav {
+    margin: 0 !important;
+    padding: 0 !important;
     bottom: 0;
     position: fixed;
     display: block;
     overflow: hidden;
     white-space: nowrap;
+    width: 100%; 
     background-color: #F2F2F2;
     border-top: 1px solid rgba(219, 219, 219, 0.774);
-    width: 100%; 
+    list-style-type: none;
 }
 
 .botnav a {
