@@ -9,18 +9,12 @@ body {
 
 .topnav {
     top: 0;
-    padding: 0;
+    position: fixed;
     display: block;
     overflow: hidden;
     white-space: nowrap;
-}
-
-#topnav-left {
-    float: left;
-}
-
-#topnav-right {
-    float: right;
+    width: 100%;
+    background-color: white;
 }
 
 .topnav a {
@@ -67,16 +61,6 @@ body {
     width: 100%; 
 }
 
-#botnav-left {
-    float: left;
-    padding-right: 27px;
-}
-
-#botnav-right {
-    float: right;
-    padding-right: 27px;
-}
-
 .botnav a {
     display: inline-block;
     font-size: 14px;
@@ -94,4 +78,14 @@ body {
     text-decoration: underline;
     color: #333;
     cursor: pointer;
+}
+
+#nav-float-left {
+    float: left;
+    padding-right: 27px;
+}
+
+#nav-float-right {
+    float: right;
+    padding-right: 27px;
 }
