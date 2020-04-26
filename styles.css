@@ -38,19 +38,24 @@ body {
 }
 
 .search-area {
-    align-content: center;
-}
-.g-logo {
-
-}
-
-
-.search-box {
-
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 
-.search-buttons {
+.search-area .g-logo {
+    position: absolute;
+    transform: translate(-50%, 200%);
+}
 
+.search-area .search-box {
+    position: absolute;
+    transform: translate(-50%, 1500%);
+}
+
+.search-area .search-buttons {
+    position: absolute;
+    transform: translate(-50%, 2000%);
 }
 
 .botnav {
