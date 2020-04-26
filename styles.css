@@ -151,10 +151,10 @@ button:hover {
     padding-right: 29px;
 }
 
-#nav-float-left {
+#float-left {
     float: left;
 }
 
-#nav-float-right {
+#float-right {
     float: right;
 }
