@@ -38,24 +38,43 @@ body {
 }
 
 .search-area {
+    height: 200px;
     position: relative;
-    top: 50%;
-    left: 50%;
 }
 
 .search-area .g-logo {
+    margin: 0;
     position: absolute;
-    transform: translate(-50%, 200%);
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
 }
 
 .search-area .search-box {
+    margin: 0;
     position: absolute;
-    transform: translate(-50%, 1500%);
+    top: 160%;
+    left: 35%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.search-box input {
+    height: 43px;
+    width: 280%;
+    border: 1px solid rgba(219, 219, 219, 0.774);
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px -3px rgba(219, 219, 219, 0.774), -1px -1px 10px -3px rgba(219, 219, 219, 0.774);
 }
 
 .search-area .search-buttons {
+    margin: 0;
     position: absolute;
-    transform: translate(-50%, 2000%);
+    top: 190%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
 }
 
 .botnav {
